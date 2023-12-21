@@ -146,6 +146,9 @@ async function runScriptForURL(url) {
 
 // Function to run the entire program
 async function runProgram() {
+
+  console.log("Started")
+
   // Iterate over each URL and run the script
   for (var url of urls) {
     await runScriptForURL(url);
